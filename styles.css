@@ -1,0 +1,35 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 28px;
+}
+
+.background{
+  height: 100vh;
+  width: auto;
+  background-color: beige;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid{
+  height: 640px;
+  width: 640px;
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box{
+  background-color: black;
+}
+
+#btn{
+  height: 80px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
